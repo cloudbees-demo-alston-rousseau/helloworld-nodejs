@@ -18,7 +18,7 @@ pipeline {
     stage('Build and Push Image') {
       when {
          beforeAgent true
-         branch 'master'
+         branch 'release'
       }
       steps {
          echo "TODO - build and push image"
